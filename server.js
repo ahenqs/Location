@@ -33,7 +33,7 @@ function generateRandomPoint(center, radius) {
 process.title = 'node-location';
 
 // Port where we'll run the websocket server
-var webSocketsServerPort = 8080;
+var webSocketsServerPort = process.env.PORT || 8080;
 
 // websocket and http servers
 var webSocketServer = require('websocket').server;
