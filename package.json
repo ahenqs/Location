@@ -1,0 +1,25 @@
+{
+  "name": "fierce-harbor-91853",
+  "version": "1.0",
+  "description": "A sample Node.js app",
+  "engines": {
+    "node": "7.2.0"
+  },
+  "main": "location-server.js",
+  "scripts": {
+    "start": "node location-server.js"
+  },
+  "dependencies": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahenqs/Location"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
