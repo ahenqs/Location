@@ -1,1 +1,2 @@
-web: node location-server.js
+web: node server.js
+
